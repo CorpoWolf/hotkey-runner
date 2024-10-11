@@ -1,0 +1,47 @@
+{
+	"Name": "Hotkey Runner",
+	"Version": "0.1.0.0",
+	"Author": "CorpoWolf",
+	"Actions": [
+		{
+			"Name": "Websocket Connect",
+			"UUID": "com.corpowolf.hotkey-runner.zoom-in",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Runs zoom-in script on OBS.",
+			"PropertyInspectorPath": "ui/increment-counter.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "HotKey Runner",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Run LUA scripts from streamdeck without binding hotkeys",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "--inspect=127.0.0.1:9229"
+	},
+	"UUID": "com.corpowolf.script-runner"
+}
