@@ -1,7 +1,7 @@
 import streamDeck,{ action, KeyDownEvent, SingletonAction, LogLevel } from "@elgato/streamdeck";
 import { getOBS } from "../OBSConn";
 
-@action({ UUID: "com.corpowolf.script-runner.zoom-in" })
+@action({ UUID: "com.corpowolf.hotkey-runner.zoom-in" })
 export class ZoomIn extends SingletonAction {
 
 	override async onKeyDown(ev: KeyDownEvent) {

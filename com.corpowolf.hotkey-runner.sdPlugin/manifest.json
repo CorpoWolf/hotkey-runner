@@ -4,7 +4,7 @@
 	"Author": "CorpoWolf",
 	"Actions": [
 		{
-			"Name": "Websocket Connect",
+			"Name": "zoom-in",
 			"UUID": "com.corpowolf.hotkey-runner.zoom-in",
 			"Icon": "imgs/actions/counter/icon",
 			"Tooltip": "Runs zoom-in script on OBS.",

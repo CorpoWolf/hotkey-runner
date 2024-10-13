@@ -11,9 +11,3 @@ streamDeck.logger.info("Hello world");
 streamDeck.logger.setLevel(LogLevel.TRACE);
 streamDeck.actions.registerAction(new ZoomIn());
 streamDeck.connect(); // Finally, connect to the Stream Deck.
-
-
-
-// import { IncrementCounter } from "./actions/increment-counter";
-// We can enable "trace" logging so that all messages between the Stream Deck, and the plugin are recorded. When storing sensitive information
-// streamDeck.actions.registerAction(new IncrementCounter()); // Register the increment action.
