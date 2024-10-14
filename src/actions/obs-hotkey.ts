@@ -5,8 +5,7 @@ import { getOBS } from "../OBSConn";
 export class ZoomIn extends SingletonAction {
 
 	override async onKeyDown(ev: KeyDownEvent) {
-		ev.action.setTitle("Hello world!");
-		streamDeck.logger.info('Zooming in running');
+		streamDeck.logger.info('zoom-in is running');
 		let obs = getOBS();
 		if (!obs) {
 			streamDeck.logger.info('OBS connection not established');
